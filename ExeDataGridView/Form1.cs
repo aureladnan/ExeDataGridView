@@ -23,5 +23,10 @@ namespace ExeDataGridView
             this.mahasiswaTableAdapter.Fill(this.prodiTIDataSet.Mahasiswa);
 
         }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }
